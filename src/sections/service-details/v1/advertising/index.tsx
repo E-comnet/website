@@ -150,7 +150,7 @@ export function ServiceDetailsSection() {
               can maximize their return on investment, ensuring that their message not only reaches but also resonates with potential customers.
             </p>
 
-            <div className="mt-2.5 grid grid-cols-[1fr_260px] gap-6">
+            <div className="mt-2.5">
               <div className="grid items-baseline gap-6 lg:gap-9">
                 <div>
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">

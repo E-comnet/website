@@ -151,7 +151,7 @@ export function ServiceDetailsSection() {
               and missing out on opportunities for growth.
             </p>
 
-            <div className="mt-2.5 grid grid-cols-[1fr_260px] gap-6">
+            <div className="mt-2.5">
               <div className="grid items-baseline gap-6 lg:gap-9">
                 <div>
                   <h3 className="text-md font-bold text-accent-700 dark:text-white">

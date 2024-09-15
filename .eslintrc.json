@@ -1,0 +1,19 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "import/no-anonymous-default-export": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ]
+  }
+}

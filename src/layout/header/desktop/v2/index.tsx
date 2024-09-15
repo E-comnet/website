@@ -8,9 +8,7 @@ import { cn } from '@/src/utils/shadcn';
 import { Navigation } from '../common/navigation';
 import {
   FaArrowRight,
-  FaCartShopping,
   FaEnvelope,
-  FaMagnifyingGlass,
   FaPaperPlane,
   FaPhone,
 } from 'react-icons/fa6';
@@ -42,10 +40,6 @@ export interface HeaderProps {
 
 const addressIconParentClasses = cn('text-base/[1] text-primary flex-none');
 const addressItemClasses = cn('flex items-center gap-2.5');
-
-const actionIconClasses = cn(
-  'text-[1.25rem]/[1] dark:text-white cursor-pointer text-accent-900 transition-colors duration-300 hover:text-primary dark:hover:text-primary'
-);
 
 export function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
